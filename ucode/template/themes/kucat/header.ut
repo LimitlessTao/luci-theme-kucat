@@ -277,14 +277,6 @@ class="lang_{{ dispatcher.lang }} {{ ctx.authsession ? 'logged-in' : '' }} {{ le
 >
 
     <header class="bar-primary">
-        <div id="header-bar-left" class="container-bar-left">
-            <a class="labelbar pdboy-closebar" href="javascript:void(0)" onclick="pdclosebar()" title="{{ _('Close') }}"></a>
-            <a class="labelbar pdboy-gohome" href="{{ gohome }}" title="{{ _('Status') }}"></a>
-            <a class="labelbar pdboy-goadvanced" href="{{ gouser }}" title="{{ _('System') }}"></a>
-            <a class="labelbar pdboy-gossr" href="{{ gossr }}" title="{{ _('Services') }}"></a>
-            <a class="labelbar pdboy-gonet" href="{{ dispatcher.build_url("admin/network/network") }}" title="{{ _('Network') }}"></a>
-            <a class="labelbar pdboy-gopoweroff" href="{{ dispatcher.build_url("admin/system/reboot") }}" title="{{ _('Reboot') }}"></a>
-        </div>
         <div id="header-bar-right" class="container-bar-right">
             <a class="labelbar pdboy-openbar" href="javascript:void(0)" title="Open" onclick="pdopenbar()"></a>
         </div>
